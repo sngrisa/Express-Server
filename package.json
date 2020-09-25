@@ -2,14 +2,18 @@
   "name": "express-server",
   "version": "1.0.0",
   "description": "Api de Angular Express",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "\u0016\u0016https://github.com/sngrisa/Express-Server"
+    "url": "git+https://github.com/sngrisa/Express-Server.git"
   },
   "author": "Santiago Grisafi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
 }
